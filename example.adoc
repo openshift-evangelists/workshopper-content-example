@@ -1,0 +1,14 @@
+== Workshopper workshop example page
+
+This is an example page that shows how a workshop would display in workshopper.
+Workshopper is a tool for creating nice Workshops developed by the OpenShift Developer Advocate team.
+
+The tool can be found at link:https://github.com/openshift-evangelists/workshopper[https://github.com/openshift-evangelists/workshopper]. More documentation on that repository.
+
+The workshop can provide variable expansion:
+
+e.g. 
+```
+API_URL: {{ API_URL }}
+MASTER_URL: {{ MASTER_URL }}
+```

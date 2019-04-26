@@ -1,0 +1,10 @@
+---
+id: example-workshop
+name: Example Workshopper Content
+
+content:
+  url: https://raw.githubusercontent.com/openshift-evangelists/workshopper-content-example/master
+
+modules:
+  activate:
+  - example

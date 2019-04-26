@@ -1,0 +1,15 @@
+config:
+  vars:
+    - name: MASTER_URL
+      desc: Address to access the OpenShift console
+      value: https://master.example.com
+    - name: API_URL
+      desc: Address to access OpenShift API
+      value: https://console-openshift-console.example.com:6443
+
+modules:
+  example:
+    name: Example
+    vars:
+      MASTER_URL:
+      API_URL:
